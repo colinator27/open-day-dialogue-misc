@@ -3,18 +3,28 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Open Day Dialogue's documentation!
-=============================================
+Open Day Dialogue Documentation
+===============================
+
+**Hey! This documentation is still under construction. Sorry if it is a little empty.**
+
+This is the official documentation for the Open Day Dialogue system, that makes dialogue simple but powerful for games.
+
+If you are new to Open Day Dialogue, it is recommended you read :ref:`the introduction page <rl-about-introduction>` before diving in.
+
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: General
+   :name: general
+   
+   about/index
 
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. Indices and tables
+.. ------------------
+..
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`
