@@ -19,7 +19,25 @@ If you are new to Open Day Dialogue, it is recommended you read :ref:`the introd
    :name: general
    
    about/index
-
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Getting Started
+   :name: gettingstarted
+   
+   gettingstarted/workflow
+   gettingstarted/editor
+   gettingstarted/language
+   gettingstarted/compiler
+   gettingstarted/interpreters
+   
+.. toctree::
+   :maxdepth: 1
+   :caption: Interpreters
+   :name: interpreters
+   
+   interpreters/gamemaker-studio-2/index
+   interpreters/unity-and-csharp/index
 
 
 .. Indices and tables
