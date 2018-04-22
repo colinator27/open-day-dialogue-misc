@@ -1,4 +1,4 @@
-.. _i_gms2_class_binary
+.. _i_gms2_class_binary:
 
 Class: Binary
 =============
