@@ -6,7 +6,8 @@
 Open Day Dialogue Documentation
 ===============================
 
-**Hey! This documentation is still under construction. It is very empty.**
+.. warning:: Hey! This documentation is still under construction. It is very empty.
+             It will likely await completion for a long time.
 
 This is the official documentation for the Open Day Dialogue system, that makes dialogue simple but powerful for games.
 

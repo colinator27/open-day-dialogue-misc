@@ -1,5 +1,9 @@
+.. _i_gms2_class_binary
+
 Class: Binary
 =============
+
+Binary file instances are essentially an in-memory reference to the contents of an Open Day Dialogue binary file. They can be loaded and unloaded as the game wishes.
 
 Binary file instances be created with two functions:
 
