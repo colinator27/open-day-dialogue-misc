@@ -25,12 +25,15 @@ Parameters
 Returns
 -------
 
-A new :ref:`Value<i_gms2_class_value>` with the given type.
+A new :ref:`Value<i_gms2_class_value>`, that will be the value you pass in, but converted. See the possible conversions :ref:`here<i_spec_conversions>`.
 
 Description
 -----------
 
 This function will convert any Value into another type, converting the GameMaker value it holds as well.
+
+.. warning:: If the conversion is not listed on :ref:`the specification<i_spec_conversions>`,
+             then it is likely the game will crash.
 
 Example
 -------

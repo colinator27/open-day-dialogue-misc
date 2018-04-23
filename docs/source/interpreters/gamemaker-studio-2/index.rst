@@ -17,3 +17,10 @@ This means to create, for instance, a Value, you would need to use a function wh
     command/index
     instruction/index
     
+.. toctree::
+    :maxdepth: 1
+    :caption: Enumerators and macros
+    
+    macro_odd_type
+    enum_odd_opcode
+    

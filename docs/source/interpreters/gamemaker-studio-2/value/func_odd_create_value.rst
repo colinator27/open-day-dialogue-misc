@@ -6,33 +6,33 @@ odd_create_value
 Syntax
 ------
 
-.. code-block:: c
+.. code-block:: js
 
     odd_create_value(type, value)
 
 Parameters
 ----------
-+-----------+-----------------------------------------+
-|Name       |Description                              |
-+===========+=========================================+
-|type       |The :ref:`odd_type<i_gms2_enum_odd_type>`| 
-|           |the Value represents.                    |
-+-----------+-----------------------------------------+
-|value      |The GameMaker value the Value holds.     |
-|           |                                         |
-+-----------+-----------------------------------------+
++-----------+------------------------------------------+
+|Name       |Description                               |
++===========+==========================================+
+|type       |The :ref:`odd_type<i_gms2_macro_odd_type>`| 
+|           |the Value represents.                     |
++-----------+------------------------------------------+
+|value      |The GameMaker value the Value holds.      |
+|           |                                          |
++-----------+------------------------------------------+
 
 Returns
 -------
 
-The new :ref:`Value<i_gms2_class_value>`.
+The reference to the new :ref:`Value<i_gms2_class_value>`. There is no need to free or delete it, because of how it is handled internally.
 
 Description
 -----------
 
-This function creates a new Value, initializing it with the passed arguments.
+This function creates a new Value, initializing it with the given parameters.
 
-.. attention:: Do not access the data of the Value directly, instead use :ref:`odd_value_type<i_gms2_func_odd_value_type>` and :ref:`odd_value_val<i_gms2_func_odd_value_val>`.
+.. attention:: Do not attempt to access the data of a Value directly, instead use :ref:`odd_value_type<i_gms2_func_odd_value_type>` and :ref:`odd_value_val<i_gms2_func_odd_value_val>`.
 
 Example
 -------

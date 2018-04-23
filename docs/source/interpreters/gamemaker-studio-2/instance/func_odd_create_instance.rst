@@ -6,7 +6,7 @@ odd_create_instance
 Syntax
 ------
 
-.. code-block:: c
+.. code-block:: js
    
    odd_create_instance(binary, vs_setVariable, vs_getVariable, vs_cleanUp[, handleText, handleChoice, textMainProcessor, textChoiceProcessor, textDefProcessor])
    
@@ -143,7 +143,7 @@ This function creates a new instance, given a :ref:`binary file instance<i_gms2_
 Example
 -------
 
-.. code-block:: c
+.. code-block:: js
    
    // Load the binary file
    var binary = odd_load_binary("english.opdac");

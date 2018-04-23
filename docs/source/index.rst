@@ -39,6 +39,7 @@ If you are new to Open Day Dialogue, it is recommended you read :ref:`the introd
    
    interpreters/gamemaker-studio-2/index
    interpreters/unity-and-csharp/index
+   interpreters/specification/index
 
 
 .. Indices and tables

@@ -6,7 +6,7 @@ odd_value_val
 Syntax
 ------
 
-.. code-block:: c
+.. code-block:: js
 
     odd_value_val(value)
 
@@ -22,12 +22,12 @@ Parameters
 Returns
 -------
 
-The GameMaker value that the :ref:`given Value<i_gms2_class_value>` holds.
+The GameMaker value that the given :ref:`Value<i_gms2_class_value>` holds.
 
 Description
 -----------
 
-This function pulls the GameMaker value out of the given Value, and should be used instead of directly accessing it.
+This function pulls the GameMaker value out of the Value. This should be used instead of directly accessing it.
 
 Example
 -------
@@ -40,4 +40,4 @@ Example
 
     // ...
 
-This would print "21" to the console.
+This would print "21" to the console. Take careful note that :code:`value` is not used directly, but gets passed through this function first.
