@@ -48,4 +48,4 @@ Example
 
     // ...
 
-This would print "21" to the console, without using string() because the value was converted to a string as well.
+This would print "21" to the console, without using :code:`string()`, because the value would already be converted.
