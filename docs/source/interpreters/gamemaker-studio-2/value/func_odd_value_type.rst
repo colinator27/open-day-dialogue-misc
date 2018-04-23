@@ -42,4 +42,4 @@ Example
 
     // ...
 
-This would add the type :code:`odd_type_int32` to the variable :code`type`.
+This would add the type :code:`odd_type_int32` to the variable :code:`type`.

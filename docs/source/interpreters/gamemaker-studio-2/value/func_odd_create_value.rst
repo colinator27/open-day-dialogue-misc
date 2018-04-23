@@ -43,4 +43,4 @@ Example
 
     // . . .
 
-This would create a new Value with the type of odd_type_int32 and the value of 21.
+This would create a new Value with the type of :code:`odd_type_int32` and the value of 21.
