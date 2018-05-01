@@ -25,7 +25,7 @@ Parameters
 Returns
 -------
 
-A new :ref:`Value<i_gms2_class_value>`, that will be the value you pass in, but converted. See the possible conversions :ref:`here<i_spec_conversions>`.
+:code:`Value`: A new :ref:`Value<i_gms2_class_value>`, that will be the value you pass in, but converted. See the possible conversions :ref:`here<i_spec_conversions>`.
 
 Description
 -----------

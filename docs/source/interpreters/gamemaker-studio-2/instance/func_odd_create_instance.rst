@@ -128,7 +128,7 @@ Parameters
 Returns
 -------
 
-The reference to the instance, typically a **Real**. This should be stored in a variable, and cleaned up by :ref:`odd_destroy_instance<i_gms2_func_odd_destroy_instance>` later.
+:code:`Instance`: The reference to the instance, typically a **Real**. This should be stored in a variable, and cleaned up by :ref:`odd_destroy_instance<i_gms2_func_odd_destroy_instance>` later.
 
 Description
 -----------

@@ -22,7 +22,7 @@ Parameters
 Returns
 -------
 
-The GameMaker value that the given :ref:`Value<i_gms2_class_value>` holds.
+:code:`any`: The GameMaker value that the given :ref:`Value<i_gms2_class_value>` holds.
 
 Description
 -----------

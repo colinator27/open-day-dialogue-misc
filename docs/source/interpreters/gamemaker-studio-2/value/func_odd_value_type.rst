@@ -24,7 +24,7 @@ Parameters
 Returns
 -------
 
-The :ref:`odd_type<i_gms2_macro_odd_type>` that the given :ref:`Value<i_gms2_class_value>` holds.
+:code:`odd_type`: The :ref:`odd_type<i_gms2_macro_odd_type>` that the given :ref:`Value<i_gms2_class_value>` holds.
 
 Description
 -----------

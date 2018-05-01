@@ -22,7 +22,7 @@ Parameters
 Returns
 -------
 
-N/A
+:code:`N/A`
 
 Description
 -----------

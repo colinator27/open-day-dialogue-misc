@@ -6,24 +6,35 @@ odd_instruction_opcode
 Syntax
 ------
 
-**TODO**
+.. code-block:: js
+
+    odd_instruction_opcode(instruction)
 
 Parameters
 ----------
-
-**TODO**
++-----------+----------------------------------------------------------------------+
+|Name       |Description                                                           |
++===========+======================================================================+
+|instruction|The :ref:`Instruction<i_gms2_class_instruction>` to get the opcode of.|
++-----------+----------------------------------------------------------------------+
 
 Returns
 -------
 
-**TODO**
+:code:`odd_opcode`: The opcode of the given Instruction.
 
 Description
 -----------
 
-**TODO**
+Gets the :ref:`odd_opcode<i_gms2_enum_odd_opcode>` of the given Instruction.
 
 Example
 -------
 
-**TODO**
+.. code-block:: js
+
+    var inst = odd_create_instruction(odd_opcode.DebugLine, 20, undefined);
+
+    show_debug_message(string(odd_instruction_opcode(inst)));
+
+This would print "208" (the numerical value for the DebugLine opcode) to the console.

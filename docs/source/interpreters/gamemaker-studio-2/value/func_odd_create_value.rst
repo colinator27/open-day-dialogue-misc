@@ -25,7 +25,7 @@ Parameters
 Returns
 -------
 
-The reference to the new :ref:`Value<i_gms2_class_value>`. There is no need to free or delete it, because of how it is handled internally.
+:code:`Value`: The reference to the new :ref:`Value<i_gms2_class_value>`. There is no need to free or delete it, because of how it is handled internally.
 
 Description
 -----------

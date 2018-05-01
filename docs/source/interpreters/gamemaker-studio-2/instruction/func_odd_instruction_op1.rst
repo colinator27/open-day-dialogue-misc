@@ -6,24 +6,37 @@ odd_instruction_op1
 Syntax
 ------
 
-**TODO**
+.. code-block:: js
+
+    odd_instruction_op1(instruction)
 
 Parameters
 ----------
-
-**TODO**
++-----------+-----------------------------------------------------------------------------+
+|Name       |Description                                                                  |
++===========+=============================================================================+
+|instruction|The :ref:`Instruction<i_gms2_class_instruction>` to get the first operand of.|
++-----------+-----------------------------------------------------------------------------+
 
 Returns
 -------
 
-**TODO**
+:code:`Number|Undefined`: The first operand of the given instruction.
 
 Description
 -----------
 
-**TODO**
+This function gets the first operand of the given Instruction, if any.
 
 Example
 -------
 
-**TODO**
+.. code-block:: js
+
+    var inst = odd_create_instruction(odd_opcode.DebugLine, 20, undefined);
+
+    show_debug_message(string(odd_instruction_op1(inst)));
+
+    // ...
+
+This would print "20" to the console.

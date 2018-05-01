@@ -23,7 +23,7 @@ Parameters
 Returns
 -------
 
-The reference to the binary file instance, typically a **Real**. This should be stored in a variable, and cleaned up by :ref:`odd_unload_binary<i_gms2_func_odd_unload_binary>` later.
+:code:`Binary`: The reference to the binary file instance, typically a **Real**. This should be stored in a variable, and cleaned up by :ref:`odd_unload_binary<i_gms2_func_odd_unload_binary>` later.
 
 Description
 -----------
